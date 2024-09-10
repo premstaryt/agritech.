@@ -1,0 +1,481 @@
+.page-header {
+    text-align: center;
+    position: relative;
+    color: white; /* Adjust text color as needed */
+    padding: 45px 20px; /* Adjust padding as needed */
+    background-image: url('image/img1.jpeg');
+  
+   
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; /* Adjust this value to set a minimum height for the header */
+}
+
+
+
+.all-section {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    width: 80%;
+    /* Reduced width */
+    height: 80vh;
+    /* Reduced height */
+    background-color: white;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 25%;
+    /* Reduced width */
+    background-color: #ffffff;
+    padding: 15px;
+    /* Reduced padding */
+    border-right: 1px solid #e0e0e0;
+    min-height: 100%;
+}
+
+
+.services {
+    list-style: none;
+}
+
+.service-item {
+    padding: 10px;
+    /* Reduced padding */
+    font-size: 14px;
+    /* Reduced font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5px;
+    /* Reduced margin */
+
+}
+
+.service-item:hover {
+    background-color: #f0f0f0;
+}
+
+.service-item.active {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Image section */
+.image-container {
+    width: 70%;
+    /* Reduced width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    /* Reduced padding */
+    border-radius: 10px;
+    /* Added border-radius for a subtle rounded edge */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Added box-shadow for depth */
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    /* Added border-radius to match the container */
+}
+ 
+
+
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left Section Promo Box */
+  .promo-box {
+    flex: 1;
+    background-color: #68b768;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 40%;
+    font-family: sans-serif;
+  }
+  
+  .promo-box h2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  /* Right Section */
+  .box-section {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .box-section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #68b768;
+  }
+  
+  /* Benefit list */
+  .benefits {
+    margin-bottom: 20px;
+  }
+  
+  .benefit {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .benefit .icon {
+    font-size: 30px;
+    color: #f8b300;
+    margin-right: 15px;
+  }
+  
+  .benefit p {
+    margin: 0;
+  }
+  
+  .benefit strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Quote Box */
+  .quote-box {
+    background-color: #68b768;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* More Benefits Section */
+  .more-benefits-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .more-benefits-section img {
+    width: 50%;
+    border-radius: 8px;
+  }
+  
+  .more-benefits {
+    padding-left: 20px;
+  }
+  
+  .more-benefits h2 {
+    font-size: 24px;
+    color: #68b768;
+    margin-bottom: 10px;
+  }
+  
+  .more-benefits ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .more-benefits ul li {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .more-benefits ul li:before {
+    content: '✔';
+    color: #f8b300;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .box {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .promo-box {
+      padding: 20px;
+      font-size: 18px;
+    }
+  
+    .box-section {
+      padding: 10px;
+    }
+  
+    .more-benefits-section {
+      flex-direction: column;
+    }
+  
+    .more-benefits-section img {
+      width: 100%;
+    }
+  
+    .more-benefits {
+      padding: 10px 0;
+    }
+  }
+
+
+
+
+  .footer {
+    background-color: #2e5e4e;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-branding,
+.footer-links,
+.footer-news,
+.footer-contact {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.footer-branding img {
+    width: 100px; /* Adjust as needed */
+}
+
+.footer-branding p {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.email-subscription {
+    display: flex;
+    margin-top: 20px;
+}
+
+.email-subscription input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 70%;
+}
+
+.email-subscription button {
+    padding: 10px;
+    background-color: #76b567;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.social-icons a img {
+    width: 20px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-news .news-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer-news .news-item img {
+    width: 60px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+.footer-news .news-content span {
+    display: block;
+    color: #c1c1c1;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-news .news-content p {
+    margin: 0;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+.footer-contact p::before {
+    content: " ";
+    margin-right: 8px;
+}
+ /* Footer Styling */
+ footer {
+    background-color: #2f5d48;
+    color: #ffffff;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+footer .column h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer .logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+footer .description {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+footer .newsletter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer .newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+footer .newsletter button {
+    background-color: #f9c74f;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .social-icons img {
+    width: 30px;
+}
+
+footer .links ul,
+footer .news ul {
+    list-style: none;
+}
+
+footer .links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 0.9rem;
+}
+
+footer .news ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer .news ul li img {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+footer .news ul li .news-info {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+footer .news ul li .news-info span {
+    color: #f9c74f;
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+footer .contact ul {
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+footer .contact ul li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+footer .contact ul li img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Responsive Design */
+@media(max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer .column {
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "agrovita",
+  "version": "1.0.0",
+  "main": "contact.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
